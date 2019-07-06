@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js object</title>
+</head>
+<body>
+    <article >
+        <section style="float: left;">
+            <form >
+                <h1> A small database</h1>
+                <h3>Add a New User</h3>
+                <!-- <form> -->
+                    Given Name <br>
+                <input type="text" name="" id="g_name">
+                <br>
+
+                Family Name <br>
+                <input type="text" name="" id="f_name">
+                <br>
+                
+                phone number <br>
+                <input type="text" name="" id="p_number">
+                <br>
+                <!--Don't put the (type=submit) because It will submit your form to server and data will 
+                be removed from the web page.-->
+                <input type="button" value="Add Contact" onclick="add_contact();"> 
+            </form>
+        </section>
+        <section style="margin-left: 20%;">
+            <h3>User Information</h3>
+            <p id="contact_Information"></p>
+            <hr>
+        </section>
+    </article>
+    <article>
+        <section style="margin-left: 20%">
+            <ul>
+                <li id="d_g_name"></li>
+                <li id="d_f_name"></li>
+                <li id="d_p_number"></li>
+
+            </ul>
+        </section>
+    </article>
+
+    
+    <script src="scripts.js"></script>
+    <script src="scripts/add_contacts.js"></script>
+    <script>
+        
+
+    </script>
+</body>
+</html>
