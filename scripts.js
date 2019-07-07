@@ -209,3 +209,13 @@ function init(){
     console.log(cal_universtiy.cal_students());
 }
 
+//comparing two object 
+//they must have same value and also linked to each other as a reference
+var originalObject = {name:'Michel'};
+var copy = originalObject;
+var result = copy === originalObject;
+// alert(result);
+//stuff like this won't work because the object written on right side doesn't have reference to copy object.
+copy == {name: 'Michel'}
+        
+
